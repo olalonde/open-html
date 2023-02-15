@@ -1,6 +1,6 @@
 {
   "name": "open-html",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Open an HTML string in your web browser.",
   "main": "index.js",
   "scripts": {
