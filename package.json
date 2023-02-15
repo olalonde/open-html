@@ -4,9 +4,16 @@
   "description": "Open an HTML string in your web browser.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": "",
   "author": "Olivier Lalonde <olalonde@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "open": "^8.4.1",
+    "tmp-promise": "^3.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
 }

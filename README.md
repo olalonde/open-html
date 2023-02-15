@@ -1,6 +1,6 @@
-# node-open-html
+# open-html
 
-Only tested on OS X.
+Opens a HTML string in your default web browser. Useful to debug issues when web scraping. This package is meant to be used during development only.
 
 ## Install
 
@@ -11,7 +11,15 @@ npm install open-html
 ## Usage
 
 ```javascript
-var open = require('open-html');
+const open = require("open-html");
 
-open('<html><head></head><body>just testing</body></html>');
+open("<html><head></head><body>just testing</body></html>");
+
+// opts are passed directly to open (see https://github.com/sindresorhus/open)
+await open("<html><head></head><body>just testing</body></html>", {
+  wait: true,
+  newInstance: true,
+});
 ```
+
+Tested on Node >v10.
