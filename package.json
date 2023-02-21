@@ -13,7 +13,12 @@
     "open": "^8.4.1",
     "tmp-promise": "^3.0.3"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "tsd": "^0.25.0"
   }
 }
